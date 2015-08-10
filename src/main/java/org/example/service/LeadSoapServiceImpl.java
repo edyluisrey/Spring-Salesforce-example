@@ -15,8 +15,8 @@ public class LeadSoapServiceImpl implements LeadSoapService  {
   
 	private EnterpriseConnection getConection() throws ConnectionException{
 		ConnectorConfig config = new ConnectorConfig();
-	    config.setUsername("eaguirre378+3@gmail.com");
-	    config.setPassword("taller123457xLPHbDPqHweItCwDdQgTFiBF");
+	    config.setUsername("user");
+	    config.setPassword("Pass+code");
 	    EnterpriseConnection connection = Connector.newConnection(config);
 	    return connection;
 	}
