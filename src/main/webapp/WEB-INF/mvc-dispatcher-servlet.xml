@@ -26,5 +26,7 @@
         <value>.jsp</value>
       </property>
      </bean> 
+    
+    <bean id="LeadSoapService" class="org.example.service.LeadSoapServiceImpl"></bean>
     	
 </beans>
